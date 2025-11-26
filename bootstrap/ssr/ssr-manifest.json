@@ -1,5 +1,7 @@
 {
+  "resources/js/Pages/About.tsx": [],
   "resources/js/Pages/Home.tsx": [],
   "resources/js/components/Button.tsx": [],
-  "resources/js/ssr.tsx": []
+  "resources/js/ssr.tsx": [],
+  "resources/js/ziggy.js": []
 }

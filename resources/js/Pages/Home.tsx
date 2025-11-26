@@ -1,4 +1,4 @@
-import Button from "@/components/Button";
+import { Link } from "@inertiajs/react";
 
 
 export default function Home() {
@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <h1>Welcome to Laravel React Project</h1>
       <p className="text-red-500 text-2xl">This is the home page...</p>
-      <Button />
+      <Link href={route("about")}>About</Link>
     </div>
   );
 }
